@@ -24,16 +24,23 @@ The simulation is endless. When you reach the last station of the line, you can 
 - In almost all the stations, the estimated waiting time is displayed on top, allowing the passengers to get real-time information. More time between a train and the previous one will also mean more passengers waiting for the train!
 - When you stop at a station, you will see a panel indicating you whether you are ahead or behind schedule. In some stations, you also get help to determine the optimal time to leave the station with no extra delays; if you are late then it will suggest you to leave earlier to catch up with the timing and vice versa!
 
+![image](https://user-images.githubusercontent.com/99399264/206041319-30a47da0-21f3-43c2-ba75-e18d546bdb0e.png)
+
 ### Between two stations
 - Accelerate and brake realistically. The strength of the acceleration and brake decrease when the speed rises, and it is mathematically impossible to go over a certain speed (will you find this maximum speed?).
 - Multiple track profiles: straight, curved, flat, uphill, downhill, with connections with the opposite lanes... The ambiant sound adapts to the current track profile and your speed, and the acceleration and braking are influenced by the slope of the track: remember it before missing a station due to an excessive speed in a slope going down!
 - Other trains are driving on the same line. They take speed limits into account, let passengers enter and leave, and beware not to collide with other trains, including yours.
 - Railway signals are displayed, their color changes dynamically according to the position of the trains. Red lights should never be crossed.
 
+![image](https://user-images.githubusercontent.com/99399264/206040938-5ceee0ce-9921-489f-af41-c66d13ff2e05.png)
+
+
 ## Extras
 - Between two stations of the middle of the line, the lines goes above ground! Over a bridge, you will not see a nice city as the outdoor design is not someting I really worked on, but you will at least get a day-night cycle according to your system's date in the year and time in the day. You will also see the shadows of the bridge evolve over time.
 - Near the beginning of the line, the line layout changed a few times. This results in the presence of a ghost station "République", near the actual station, that is not anymore inside the line but still visible. If you stop at République, you can go out and visit it - the quay is used to host technical locals.
 - Your train is of perfect quality and will always work properly. But the other trains may fall into issues that will delay them in station for a random duration up to 10 minutes. If you are not too far away, you may experience the consequences (red signals and more passengers since the previous trains were full).
+
+![image](https://user-images.githubusercontent.com/99399264/206041094-2a949cd8-eafa-4ec9-8761-5ce25fe4d3a7.png)
 
 ## Technical aspects
 I do not share the executable file here. You can clone this repo and compile the project manually, but you will not be able to run the application due to the lack of data files and the non-relative file imports inside the project: this project has always been created by me and for me, and I have never considered sharing the executable. This repo's only goal is to present this project. 
