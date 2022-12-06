@@ -1,5 +1,6 @@
 # metro-sim
 This was my first "real" project. Back then, I was learning computer programming by myself, so I didn't know anything about good code practices.
+The development of the project is over. The last main version of the code was released on May 2nd, 2020. I am the only contributor of this project, and it would be very difficult for me to get back into this project.
 
 ## Context
 Back in 2016, I started by myself to learn computer programming and C++. At the end of the year, I started to learn 3D programming with the help of the library OpenGL.
@@ -33,3 +34,7 @@ The simulation is endless. When you reach the last station of the line, you can 
 - Between two stations of the middle of the line, the lines goes above ground! Over a bridge, you will not see a nice city as the outdoor design is not someting I really worked on, but you will at least get a day-night cycle according to your system's date in the year and time in the day. You will also see the shadows of the bridge evolve over time.
 - Near the beginning of the line, the line layout changed a few times. This results in the presence of a ghost station "République", near the actual station, that is not anymore inside the line but still visible. If you stop at République, you can go out and visit it - the quay is used to host technical locals.
 - Your train is of perfect quality and will always work properly. But the other trains may fall into issues that will delay them in station for a random duration up to 10 minutes. If you are not too far away, you may experience the consequences (red signals and more passengers since the previous trains were full).
+
+## Technical aspects
+I do not share the executable file here. You can clone this repo and compile the project manually, but you will not be able to run the application due to the lack of data files and the non-relative file imports inside the project: this project has always been created by me and for me, and I have never considered sharing the executable. This repo's only goal is to present this project. 
+The code is entirely written in C++, using Qt framework and the OpenGL library.
