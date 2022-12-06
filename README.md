@@ -1,5 +1,6 @@
 # metro-sim
 This was my first "real" project. Back then, I was learning computer programming by myself, so I didn't know anything about good code practices.
+
 The development of the project is over. The last main version of the code was released on May 2nd, 2020. I am the only contributor of this project, and it would be very difficult for me to get back into this project.
 
 ## Context
